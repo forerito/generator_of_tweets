@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* viewport */
+  width: 100vw;
+  height: 100vh;
+}
+
+.navegador {
+  background-color: rgb(9, 7, 67);
+  height: 10vh;
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 1px 100px;
+  margin: 0 auto;
+  line-height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titu {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 28rem;
+  height: 25rem;
+  border-radius: 10px;
+  background-color: rgb(5, 48, 66);
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.container1 {
+  width: 27rem;
+  height: 7.5rem;
+  margin: auto;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+#name {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenedor_links div {
+  display: inline-block;
+  padding: 10px;
+}
+
+.container>h1 {
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.container>hr {
+  width: 90%;
+  margin-bottom: 0.5rem;
+}
+
+.form {
+  width: 90%;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+
+.form>label {
+  font-size: 25px;
+  margin-right: 1rem;
+  color: #fff;
+  margin: 3px;
+  padding: 5px;
+}
+
+.form>input {
+  width: 25rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: #fff;
+  padding-left: 0.5rem;
+  color: #000;
+  padding: 5px;
+}
+
+textarea {
+  border-radius: 10px;
+  width: 100%;
+  height: 7rem;
+  margin: 5px;
+  padding: 2px;
+}
+
+#counter {
+  margin-top: 5px;
+  float: right;
+  font-size: 20px;
+}
+
+button {
+  margin: 10px;
+  margin-top: 30px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 10px;
+  height: auto;
+}
+
+.btns{
+  display: inline-block;
+}
+
+.bola {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.bola p {
+  margin-top: -30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+ font-weight: bold;
+ font-size: 35px;
+  color: #000
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
